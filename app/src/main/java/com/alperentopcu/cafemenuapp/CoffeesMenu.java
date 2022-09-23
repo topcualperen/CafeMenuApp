@@ -1,16 +1,20 @@
 package com.alperentopcu.cafemenuapp;
 
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 import android.view.View;
+import android.widget.TextView;
 
 public class CoffeesMenu extends AppCompatActivity {
+
+    TextView coffeeMenuText;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_coffees_menu);
+
+        coffeeMenuText =findViewById(R.id.coffeeMenuText);
     }
 
     public void americano(View view){
@@ -33,11 +37,4 @@ public class CoffeesMenu extends AppCompatActivity {
 
     }
 
-    public void mocha(View view){
-
-    }
-
-    public void turkishCoffee(View view){
-
-    }
 }
