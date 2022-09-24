@@ -1,6 +1,8 @@
 package com.alperentopcu.cafemenuapp;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
@@ -15,10 +17,13 @@ public class CoffeesMenu extends AppCompatActivity {
         setContentView(R.layout.activity_coffees_menu);
 
         coffeeMenuText =findViewById(R.id.coffeeMenuText);
+
+        Intent intent = new Intent();
     }
 
     public void americano(View view){
-
+        Intent intent = new Intent(getApplicationContext(),AmericanoMenu.class);
+        startActivity(intent);
     }
 
     public void cappuccino(View view){

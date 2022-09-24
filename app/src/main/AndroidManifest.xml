@@ -14,6 +14,13 @@
         android:theme="@style/Theme.CafeMenuApp"
         tools:targetApi="31">
         <activity
+            android:name=".AmericanoMenu"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".CoffeesMenu"
             android:exported="false" />
         <activity
