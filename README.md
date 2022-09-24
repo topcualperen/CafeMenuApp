@@ -4,4 +4,4 @@
 
 This project has been developed with android studio in java programming language for android phones.
 
-![image](https://user-images.githubusercontent.com/98543018/192054178-5253c8cd-ea26-415f-8823-b3b0da957577.png)
+![image](https://user-images.githubusercontent.com/98543018/192074138-ac5af611-a2b2-4bcf-9de6-2de908a5a2fe.png)
