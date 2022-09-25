@@ -22,7 +22,7 @@ public class AmericanoMenu extends AppCompatActivity {
     }
 
     public void order(View view){
-
+        // onClick
     }
 
     public void coffee_size_s(View view){
