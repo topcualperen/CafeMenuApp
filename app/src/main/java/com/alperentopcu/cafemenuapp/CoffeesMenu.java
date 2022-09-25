@@ -27,19 +27,19 @@ public class CoffeesMenu extends AppCompatActivity {
     }
 
     public void cappuccino(View view){
-
+        // Intent
     }
 
     public void caramel(View view){
-
+        // Intent
     }
 
     public void latte(View view){
-
+        // Intent
     }
 
     public void coldBrew(View view){
-
+        // Intent
     }
 
 }
