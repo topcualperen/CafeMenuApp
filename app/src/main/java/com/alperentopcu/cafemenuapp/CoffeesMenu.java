@@ -42,4 +42,11 @@ public class CoffeesMenu extends AppCompatActivity {
         // Intent
     }
 
+    public void backPage(View view){
+
+        Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+        startActivity(intent);
+
+    }
+
 }
