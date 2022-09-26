@@ -9,17 +9,17 @@
 
     <TextView
         android:id="@+id/americanoText"
-        android:layout_width="0dp"
+        android:layout_width="361dp"
         android:layout_height="55dp"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="4dp"
+        android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
         android:fontFamily="@font/archivo_black"
         android:text="Caffè Americano"
         android:textColor="#FFFFFF"
         android:textSize="38dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
