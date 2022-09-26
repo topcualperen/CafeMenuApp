@@ -65,4 +65,11 @@ public class AmericanoMenu extends AppCompatActivity {
 
     }
 
+    public void backPage(View view){
+
+        Intent intent = new Intent(getApplicationContext(), CoffeesMenu.class);
+        startActivity(intent);
+
+    }
+
 }
