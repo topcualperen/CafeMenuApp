@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:background="@drawable/custom_image_button"
-        android:onClick="pay"
+        android:onClick="waiter"
         app:layout_constraintStart_toEndOf="@+id/imageButton15"
         app:layout_constraintTop_toTopOf="@+id/imageButton15"
         app:srcCompat="@drawable/waiter" />
@@ -24,7 +24,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="34dp"
         android:background="@drawable/custom_image_button"
-        android:onClick="waiter"
+        android:onClick="pay"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageButton12"
