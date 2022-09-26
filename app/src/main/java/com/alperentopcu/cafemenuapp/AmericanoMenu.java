@@ -1,11 +1,14 @@
 package com.alperentopcu.cafemenuapp;
 
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class AmericanoMenu extends AppCompatActivity {
 
@@ -22,19 +25,44 @@ public class AmericanoMenu extends AppCompatActivity {
     }
 
     public void order(View view){
-        // onClick
+
+        AlertDialog.Builder alert = new AlertDialog.Builder(this);
+
+        alert.setTitle("COFFEE SHOP");
+        alert.setMessage("Would you like to confirm the coffee selection?");
+        alert.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                Toast.makeText(getApplicationContext(), "Successful", Toast.LENGTH_LONG).show();
+            }
+        });
+        alert.setNegativeButton("No", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                Toast.makeText(getApplicationContext(), "Not Saved", Toast.LENGTH_LONG).show();
+            }
+        });
+
+        alert.show();
+
     }
 
     public void coffee_size_s(View view){
-        // onClick
+
+        Toast.makeText(getApplicationContext(), "Small size selected", Toast.LENGTH_SHORT).show();
+
     }
 
     public void coffee_size_m(View view){
-        // onClick
+
+        Toast.makeText(getApplicationContext(), "Medium size selected", Toast.LENGTH_SHORT).show();
+
     }
 
     public void coffee_size_l(View view){
-        // onClick
+
+        Toast.makeText(getApplicationContext(), "Large size selected", Toast.LENGTH_SHORT).show();
+
     }
 
 }
