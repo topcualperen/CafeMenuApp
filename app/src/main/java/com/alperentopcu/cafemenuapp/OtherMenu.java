@@ -28,7 +28,7 @@ public class OtherMenu extends AppCompatActivity {
     }
 
     public void pay(View view){
-
+        // online pay
     }
 
     public void rate(View view){
