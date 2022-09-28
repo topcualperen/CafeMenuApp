@@ -27,7 +27,8 @@ public class CoffeesMenu extends AppCompatActivity {
     }
 
     public void cappuccino(View view){
-        // Intent
+        Intent intent = new Intent(getApplicationContext(),CappuccinoMenu.class);
+        startActivity(intent);
     }
 
     public void caramel(View view){

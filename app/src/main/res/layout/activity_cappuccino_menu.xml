@@ -7,103 +7,141 @@
     android:background="@drawable/custom_background"
     tools:context=".CappuccinoMenu">
 
+    <ImageButton
+        android:id="@+id/backPageButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:background="@drawable/custom_image_button"
+        android:onClick="backPage"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView"
+        app:srcCompat="?attr/actionModeCloseDrawable" />
+
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/green_background"
-        tools:layout_editor_absoluteX="49dp"
-        tools:layout_editor_absoluteY="189dp" />
+        android:layout_marginStart="9dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/backPageButton2"
+        app:srcCompat="@drawable/green_background" />
 
     <ImageView
         android:id="@+id/imageView9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/cappuccino"
-        tools:layout_editor_absoluteX="121dp"
-        tools:layout_editor_absoluteY="189dp" />
+        android:layout_marginStart="39dp"
+        app:layout_constraintStart_toStartOf="@+id/imageView10"
+        app:layout_constraintTop_toTopOf="@+id/imageView"
+        app:srcCompat="@drawable/cappuccino" />
 
     <ImageView
         android:id="@+id/imageView10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/cappuccino_making"
-        tools:layout_editor_absoluteX="82dp"
-        tools:layout_editor_absoluteY="353dp" />
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="13dp"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton17"
+        app:layout_constraintTop_toBottomOf="@+id/imageView9"
+        app:srcCompat="@drawable/cappuccino_making" />
 
     <ImageButton
         android:id="@+id/imageButton11"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
         android:background="@drawable/custom_image_button"
-        app:srcCompat="@drawable/s_size_coffee"
-        tools:layout_editor_absoluteX="69dp"
-        tools:layout_editor_absoluteY="579dp" />
+        android:onClick="coffee_size_s"
+        app:layout_constraintBottom_toBottomOf="@+id/imageButton16"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:srcCompat="@drawable/s_size_coffee" />
 
     <ImageButton
         android:id="@+id/imageButton16"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginEnd="24dp"
         android:background="@drawable/custom_image_button"
-        app:srcCompat="@drawable/m_size_coffee"
-        tools:layout_editor_absoluteX="162dp"
-        tools:layout_editor_absoluteY="564dp" />
+        android:onClick="coffee_size_m"
+        app:layout_constraintBottom_toBottomOf="@+id/imageButton17"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton17"
+        app:srcCompat="@drawable/m_size_coffee" />
 
     <ImageButton
         android:id="@+id/imageButton17"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="20dp"
         android:background="@drawable/custom_image_button"
-        app:srcCompat="@drawable/l_size_coffee"
-        tools:layout_editor_absoluteX="254dp"
-        tools:layout_editor_absoluteY="556dp" />
+        android:onClick="coffee_size_l"
+        app:layout_constraintEnd_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/imageView10"
+        app:srcCompat="@drawable/l_size_coffee" />
 
     <ImageView
         android:id="@+id/imageView11"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/dollar_5"
-        tools:layout_editor_absoluteX="82dp"
-        tools:layout_editor_absoluteY="679dp" />
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="11dp"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton11"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton11"
+        app:srcCompat="@drawable/dollar_5" />
 
     <ImageView
         android:id="@+id/imageView12"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/dollar_9"
-        tools:layout_editor_absoluteX="177dp"
-        tools:layout_editor_absoluteY="679dp" />
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="22dp"
+        app:layout_constraintStart_toStartOf="@+id/imageButton16"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton16"
+        app:srcCompat="@drawable/dollar_9" />
 
     <ImageView
         android:id="@+id/imageView13"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/dollar_10"
-        tools:layout_editor_absoluteX="271dp"
-        tools:layout_editor_absoluteY="679dp" />
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="15dp"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton17"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton17"
+        app:srcCompat="@drawable/dollar_10" />
 
     <TextView
         android:id="@+id/cappuccinoText"
-        android:layout_width="255dp"
+        android:layout_width="0dp"
         android:layout_height="44dp"
+        android:layout_marginStart="69dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="69dp"
         android:fontFamily="@font/archivo_black"
         android:text="Cappuccino"
         android:textColor="#FFFFFF"
         android:textSize="38dp"
-        tools:layout_editor_absoluteX="69dp"
-        tools:layout_editor_absoluteY="38dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="150dp"
         android:layout_height="50dp"
+        android:layout_marginTop="51dp"
+        android:layout_marginBottom="41dp"
         android:background="@drawable/custom_button"
         android:fontFamily="@font/archivo_black"
         android:onClick="order"
         android:text="Order"
         android:textColor="#00382F"
         android:textSize="18dp"
-        tools:layout_editor_absoluteX="121dp"
-        tools:layout_editor_absoluteY="760dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView13" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
