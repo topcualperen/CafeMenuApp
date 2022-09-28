@@ -8,7 +8,7 @@
     tools:context=".AmericanoMenu">
 
     <TextView
-        android:id="@+id/americanoText"
+        android:id="@+id/cappuccinoText"
         android:layout_width="362dp"
         android:layout_height="42dp"
         android:layout_marginStart="16dp"
