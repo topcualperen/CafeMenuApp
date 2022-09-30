@@ -19,7 +19,7 @@ public class AmericanoMenu extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_americano_menu);
 
-        americanoText = findViewById(R.id.espressoText);
+        americanoText = findViewById(R.id.coldBrewText);
 
         Intent intent = new Intent();
     }

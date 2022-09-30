@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/custom_background"
-    tools:context=".LatteMenu">
+    tools:context=".ColdBrewMenu">
 
     <ImageButton
         android:id="@+id/backPageButton2"
@@ -94,11 +94,11 @@
 
     <TextView
         android:id="@+id/coldBrewText"
-        android:layout_width="119dp"
-        android:layout_height="44dp"
-        android:layout_marginTop="4dp"
+        android:layout_width="220dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="2dp"
         android:fontFamily="@font/archivo_black"
-        android:text="Latte"
+        android:text="Cold Brew"
         android:textColor="#FFFFFF"
         android:textSize="38dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -123,22 +123,22 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView13" />
 
     <ImageView
-        android:id="@+id/imageView14"
+        android:id="@+id/imageView19"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/imageView"
-        app:srcCompat="@drawable/latte" />
+        app:srcCompat="@drawable/cold_brew" />
 
     <ImageView
-        android:id="@+id/imageView16"
+        android:id="@+id/imageView20"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="9dp"
+        android:layout_marginEnd="12dp"
         android:layout_marginBottom="15dp"
         app:layout_constraintBottom_toTopOf="@+id/imageButton17"
         app:layout_constraintEnd_toEndOf="@+id/imageButton17"
-        app:srcCompat="@drawable/latte_making" />
+        app:srcCompat="@drawable/cold_brew_making" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

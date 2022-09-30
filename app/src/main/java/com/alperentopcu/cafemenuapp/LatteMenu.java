@@ -19,7 +19,7 @@ public class LatteMenu extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_latte_menu);
 
-        latteText = findViewById(R.id.espressoText);
+        latteText = findViewById(R.id.coldBrewText);
     }
 
     public void order(View view){

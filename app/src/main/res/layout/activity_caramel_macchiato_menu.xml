@@ -94,7 +94,7 @@
         app:srcCompat="@drawable/dollar_10" />
 
     <TextView
-        android:id="@+id/espressoText"
+        android:id="@+id/coldBrewText"
         android:layout_width="0dp"
         android:layout_height="48dp"
         android:layout_marginStart="11dp"

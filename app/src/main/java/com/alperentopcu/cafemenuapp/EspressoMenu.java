@@ -19,7 +19,7 @@ public class EspressoMenu extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_espresso_menu);
 
-        espressoText = findViewById(R.id.espressoText);
+        espressoText = findViewById(R.id.coldBrewText);
     }
 
     public void order(View view){

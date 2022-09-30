@@ -47,7 +47,8 @@ public class CoffeesMenu extends AppCompatActivity {
     }
 
     public void coldBrew(View view){
-        // Intent
+        Intent intent = new Intent(getApplicationContext(), ColdBrewMenu.class);
+        startActivity(intent);
     }
 
     public void backPage(View view){

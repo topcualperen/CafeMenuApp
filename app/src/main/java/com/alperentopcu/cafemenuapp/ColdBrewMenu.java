@@ -10,18 +10,16 @@ import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
-public class CappuccinoMenu extends AppCompatActivity {
+public class ColdBrewMenu extends AppCompatActivity {
 
-    TextView cappuccinoText;
+    TextView coldBrewText;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_cappuccino_menu);
+        setContentView(R.layout.activity_cold_brew_menu);
 
-        cappuccinoText = findViewById(R.id.coldBrewText);
-
-        Intent intent = new Intent();
+        coldBrewText = findViewById(R.id.coldBrewText);
     }
 
     public void order(View view){
@@ -71,5 +69,4 @@ public class CappuccinoMenu extends AppCompatActivity {
         startActivity(intent);
 
     }
-
 }
