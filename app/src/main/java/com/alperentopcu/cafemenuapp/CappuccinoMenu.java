@@ -19,7 +19,7 @@ public class CappuccinoMenu extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_cappuccino_menu);
 
-        cappuccinoText = findViewById(R.id.cappuccinoText);
+        cappuccinoText = findViewById(R.id.macchiatoText);
 
         Intent intent = new Intent();
     }

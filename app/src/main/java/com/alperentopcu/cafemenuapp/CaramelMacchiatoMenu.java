@@ -10,16 +10,16 @@ import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
-public class AmericanoMenu extends AppCompatActivity {
+public class CaramelMacchiatoMenu extends AppCompatActivity {
 
-    TextView americanoText;
+    TextView macchiatoText;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_americano_menu);
+        setContentView(R.layout.activity_caramel_macchiato_menu);
 
-        americanoText = findViewById(R.id.macchiatoText);
+        macchiatoText = findViewById(R.id.macchiatoText);
 
         Intent intent = new Intent();
     }

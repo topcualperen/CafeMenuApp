@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/custom_background"
-    tools:context=".CappuccinoMenu">
+    tools:context=".CaramelMacchiatoMenu">
 
     <ImageButton
         android:id="@+id/backPageButton2"
@@ -28,25 +28,6 @@
         app:layout_constraintStart_toEndOf="@+id/backPageButton2"
         app:srcCompat="@drawable/green_background" />
 
-    <ImageView
-        android:id="@+id/imageView9"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="39dp"
-        app:layout_constraintStart_toStartOf="@+id/imageView10"
-        app:layout_constraintTop_toTopOf="@+id/imageView"
-        app:srcCompat="@drawable/cappuccino" />
-
-    <ImageView
-        android:id="@+id/imageView10"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="14dp"
-        android:layout_marginEnd="13dp"
-        app:layout_constraintEnd_toEndOf="@+id/imageButton17"
-        app:layout_constraintTop_toBottomOf="@+id/imageView9"
-        app:srcCompat="@drawable/cappuccino_making" />
-
     <ImageButton
         android:id="@+id/imageButton11"
         android:layout_width="wrap_content"
@@ -62,30 +43,31 @@
         android:id="@+id/imageButton16"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
         android:layout_marginEnd="24dp"
         android:background="@drawable/custom_image_button"
         android:onClick="coffee_size_m"
-        app:layout_constraintBottom_toBottomOf="@+id/imageButton17"
         app:layout_constraintEnd_toStartOf="@+id/imageButton17"
+        app:layout_constraintTop_toBottomOf="@+id/imageView15"
         app:srcCompat="@drawable/m_size_coffee" />
 
     <ImageButton
         android:id="@+id/imageButton17"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="22dp"
         android:layout_marginEnd="20dp"
+        android:layout_marginBottom="194dp"
         android:background="@drawable/custom_image_button"
         android:onClick="coffee_size_l"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/imageView"
-        app:layout_constraintTop_toBottomOf="@+id/imageView10"
         app:srcCompat="@drawable/l_size_coffee" />
 
     <ImageView
         android:id="@+id/imageView11"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="22dp"
+        android:layout_marginTop="23dp"
         android:layout_marginEnd="11dp"
         app:layout_constraintEnd_toEndOf="@+id/imageButton11"
         app:layout_constraintTop_toBottomOf="@+id/imageButton11"
@@ -96,7 +78,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="15dp"
-        android:layout_marginTop="22dp"
+        android:layout_marginTop="23dp"
         app:layout_constraintStart_toStartOf="@+id/imageButton16"
         app:layout_constraintTop_toBottomOf="@+id/imageButton16"
         app:srcCompat="@drawable/dollar_9" />
@@ -105,7 +87,7 @@
         android:id="@+id/imageView13"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="22dp"
+        android:layout_marginTop="23dp"
         android:layout_marginEnd="15dp"
         app:layout_constraintEnd_toEndOf="@+id/imageButton17"
         app:layout_constraintTop_toBottomOf="@+id/imageButton17"
@@ -114,16 +96,16 @@
     <TextView
         android:id="@+id/macchiatoText"
         android:layout_width="0dp"
-        android:layout_height="44dp"
-        android:layout_marginStart="69dp"
-        android:layout_marginTop="4dp"
-        android:layout_marginEnd="69dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="11dp"
+        android:capitalize="none"
         android:fontFamily="@font/archivo_black"
-        android:text="Cappuccino"
+        android:text="Caramel Macchiato"
         android:textColor="#FFFFFF"
-        android:textSize="38dp"
+        android:textSize="34sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -131,7 +113,7 @@
         android:id="@+id/button"
         android:layout_width="150dp"
         android:layout_height="50dp"
-        android:layout_marginTop="51dp"
+        android:layout_marginTop="50dp"
         android:layout_marginBottom="41dp"
         android:background="@drawable/custom_button"
         android:fontFamily="@font/archivo_black"
@@ -143,5 +125,24 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView13" />
+
+    <ImageView
+        android:id="@+id/caramelMacchiatoText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView"
+        app:srcCompat="@drawable/caramel_macchiato" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="9dp"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton17"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton17"
+        app:srcCompat="@drawable/caramel_macchiato_making" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
