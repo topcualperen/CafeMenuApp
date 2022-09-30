@@ -41,6 +41,11 @@ public class CoffeesMenu extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void espresso(View view){
+        Intent intent = new Intent(getApplicationContext(), EspressoMenu.class);
+        startActivity(intent);
+    }
+
     public void coldBrew(View view){
         // Intent
     }

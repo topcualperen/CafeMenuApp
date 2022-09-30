@@ -19,7 +19,7 @@ public class CaramelMacchiatoMenu extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_caramel_macchiato_menu);
 
-        macchiatoText = findViewById(R.id.latteText);
+        macchiatoText = findViewById(R.id.espressoText);
 
         Intent intent = new Intent();
     }
