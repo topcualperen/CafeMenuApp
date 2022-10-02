@@ -28,7 +28,7 @@ public class OtherMenu extends AppCompatActivity {
     }
 
     public void pay(View view){
-        // online pay
+        Toast.makeText(getApplicationContext(), "Coming Soon ...", Toast.LENGTH_LONG).show();
     }
 
     public void rate(View view){
