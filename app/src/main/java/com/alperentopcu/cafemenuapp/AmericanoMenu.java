@@ -39,7 +39,7 @@ public class AmericanoMenu extends AppCompatActivity {
         alert.setNegativeButton("No", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
-                Toast.makeText(getApplicationContext(), "Not Saved", Toast.LENGTH_LONG).show();
+                Toast.makeText(getApplicationContext(), "Not Saved ", Toast.LENGTH_LONG).show();
             }
         });
 
